@@ -42,11 +42,13 @@ class UserController extends Controller
     ]);
 
     User::create([
-      'name'     => $request->name,
-      'email'    => $request->email,
-      'phone'    => $request->phone,
-      'role'     => $request->role,
-      'password' => Hash::make($request->password),
+      'name'       => $request->name,
+      'email'      => $request->email,
+      'phone'      => $request->phone,
+      'role'       => $request->role,
+      'position'   => $request->position,
+      'department' => $request->department,
+      'password'   => Hash::make($request->password),
     ]);
 
     return redirect()->route('users.index')->with('success', 'User created successfully');
@@ -81,10 +83,12 @@ class UserController extends Controller
     ]);
 
     $user->update([
-      'name'  => $request->name,
-      'email' => $request->email,
-      'phone' => $request->phone,
-      'role'  => $request->role,
+      'name'       => $request->name,
+      'email'      => $request->email,
+      'phone'      => $request->phone,
+      'role'       => $request->role,
+      'position'   => $request->position,
+      'department' => $request->department,
     ]);
 
     //if password filled
