@@ -41,5 +41,27 @@
     ],
     "params": [],
     "tests": []
+  },
+  {
+    "_id": "2dfc21b1-fc50-41b7-a469-f9ed52424046",
+    "colId": "a009911a-a5ee-4956-8686-aadc17e92f33",
+    "containerId": "",
+    "name": "logout",
+    "url": "http://laravel-absensi-backend.test/api/logout",
+    "method": "POST",
+    "sortNum": 15000,
+    "created": "2024-04-24T17:42:33.303Z",
+    "modified": "2024-04-24T17:52:52.190Z",
+    "headers": [
+      {
+        "name": "Accept",
+        "value": "application/json"
+      }
+    ],
+    "params": [],
+    "auth": {
+      "type": "none"
+    },
+    "tests": []
   }
 ]
