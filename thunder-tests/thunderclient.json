@@ -27,7 +27,7 @@
     "method": "GET",
     "sortNum": 20000,
     "created": "2024-04-24T17:26:14.173Z",
-    "modified": "2024-04-24T17:37:55.044Z",
+    "modified": "2024-05-01T12:58:33.067Z",
     "headers": [
       {
         "name": "Accept",
@@ -40,6 +40,10 @@
       }
     ],
     "params": [],
+    "auth": {
+      "type": "bearer",
+      "bearer": "1|TgTyKZysYJvBLspSlvvxJkdNfahzcjanvvf9go5de4c5a9d1"
+    },
     "tests": []
   },
   {
@@ -61,6 +65,146 @@
     "params": [],
     "auth": {
       "type": "none"
+    },
+    "tests": []
+  },
+  {
+    "_id": "49856452-5153-4069-b811-5ed0c47c15ce",
+    "colId": "a009911a-a5ee-4956-8686-aadc17e92f33",
+    "containerId": "",
+    "name": "company",
+    "url": "http://laravel-absensi-backend.test/api/company",
+    "method": "GET",
+    "sortNum": 30000,
+    "created": "2024-05-01T12:52:53.271Z",
+    "modified": "2024-05-01T12:58:28.269Z",
+    "headers": [
+      {
+        "name": "Accept",
+        "value": "application/json"
+      }
+    ],
+    "params": [],
+    "auth": {
+      "type": "none"
+    },
+    "tests": []
+  },
+  {
+    "_id": "d32687ab-d6ee-4cea-b35b-e876c24a4240",
+    "colId": "a009911a-a5ee-4956-8686-aadc17e92f33",
+    "containerId": "",
+    "name": "checkin",
+    "url": "http://laravel-absensi-backend.test/api/checkin",
+    "method": "POST",
+    "sortNum": 40000,
+    "created": "2024-05-01T13:59:49.535Z",
+    "modified": "2024-05-01T14:12:48.574Z",
+    "headers": [
+      {
+        "name": "Accept",
+        "value": "application/json"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"latitude\" : \"-8.862313\",\n  \"longitude\": \"-88.403441\"\n}",
+      "form": []
+    },
+    "auth": {
+      "type": "bearer",
+      "bearer": "1|YdVv9CidWmFIfF5M4DsR4y8pIUzTznpJU4ni4A1q46c2fd40"
+    },
+    "tests": []
+  },
+  {
+    "_id": "1256a0e4-b525-43c8-b7c1-208c5644c422",
+    "colId": "a009911a-a5ee-4956-8686-aadc17e92f33",
+    "containerId": "",
+    "name": "is-chekin",
+    "url": "http://laravel-absensi-backend.test/api/is-checkin",
+    "method": "GET",
+    "sortNum": 50000,
+    "created": "2024-05-01T14:04:59.938Z",
+    "modified": "2024-05-01T14:06:16.476Z",
+    "headers": [
+      {
+        "name": "Accept",
+        "value": "application/json"
+      }
+    ],
+    "params": [],
+    "auth": {
+      "type": "bearer",
+      "bearer": "1|YdVv9CidWmFIfF5M4DsR4y8pIUzTznpJU4ni4A1q46c2fd40"
+    },
+    "tests": []
+  },
+  {
+    "_id": "6f5fd8fe-8f19-4754-8496-8c92682df35b",
+    "colId": "a009911a-a5ee-4956-8686-aadc17e92f33",
+    "containerId": "",
+    "name": "checkout",
+    "url": "http://laravel-absensi-backend.test/api/checkout",
+    "method": "POST",
+    "sortNum": 45000,
+    "created": "2024-05-01T14:07:12.767Z",
+    "modified": "2024-05-01T14:07:34.195Z",
+    "headers": [
+      {
+        "name": "Accept",
+        "value": "application/json"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"latitude\" : \"-8.862313\",\n  \"longitude\": \"-88.403441\"\n}",
+      "form": []
+    },
+    "auth": {
+      "type": "bearer",
+      "bearer": "1|YdVv9CidWmFIfF5M4DsR4y8pIUzTznpJU4ni4A1q46c2fd40"
+    },
+    "tests": []
+  },
+  {
+    "_id": "7938f93d-580b-4c99-896f-3149cb21c2b1",
+    "colId": "a009911a-a5ee-4956-8686-aadc17e92f33",
+    "containerId": "",
+    "name": "update-profile",
+    "url": "http://laravel-absensi-backend.test/api/update-profile",
+    "method": "POST",
+    "sortNum": 50000,
+    "created": "2024-05-01T14:21:36.608Z",
+    "modified": "2024-05-01T14:26:32.201Z",
+    "headers": [
+      {
+        "name": "Accept",
+        "value": "application/json"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "face_embedding",
+          "value": "rtergdfgdfgdgdhgfhfgh"
+        }
+      ],
+      "files": [
+        {
+          "name": "image",
+          "value": "d:\\Gambar~Wallpaper\\Gambar Campur\\avatars\\download.jpg"
+        }
+      ]
+    },
+    "auth": {
+      "type": "bearer",
+      "bearer": "1|YdVv9CidWmFIfF5M4DsR4y8pIUzTznpJU4ni4A1q46c2fd40"
     },
     "tests": []
   }
