@@ -207,5 +207,99 @@
       "bearer": "1|YdVv9CidWmFIfF5M4DsR4y8pIUzTznpJU4ni4A1q46c2fd40"
     },
     "tests": []
+  },
+  {
+    "_id": "5913a7ce-1b8a-40cf-8cb1-22a6a9fb5f4a",
+    "colId": "a009911a-a5ee-4956-8686-aadc17e92f33",
+    "containerId": "",
+    "name": "create permission",
+    "url": "http://laravel-absensi-backend.test/api/api-permissions",
+    "method": "POST",
+    "sortNum": 60000,
+    "created": "2024-05-05T03:49:06.986Z",
+    "modified": "2024-05-05T03:52:25.943Z",
+    "headers": [
+      {
+        "name": "Accept",
+        "value": "application/json"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "formdata",
+      "raw": "",
+      "form": [
+        {
+          "name": "date",
+          "value": "2024-04-25"
+        },
+        {
+          "name": "reason",
+          "value": "izin sakit"
+        }
+      ],
+      "files": [
+        {
+          "name": "image",
+          "value": "d:\\Gambar~Wallpaper\\Gambar Campur\\avatars\\download.jpg"
+        }
+      ]
+    },
+    "auth": {
+      "type": "bearer",
+      "bearer": "1|afYgieC7kLCCXFGmm1mSLkVeQf9UJF0npJnEhmC85bf65917"
+    },
+    "tests": []
+  },
+  {
+    "_id": "0f4d4a5d-4582-4f59-b98f-c4964b3812a8",
+    "colId": "a009911a-a5ee-4956-8686-aadc17e92f33",
+    "containerId": "",
+    "name": "create note",
+    "url": "http://laravel-absensi-backend.test/api/api-notes",
+    "method": "POST",
+    "sortNum": 70000,
+    "created": "2024-05-05T06:05:39.585Z",
+    "modified": "2024-05-05T06:07:18.397Z",
+    "headers": [
+      {
+        "name": "Accept",
+        "value": "application/json"
+      }
+    ],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"title\": \"Testing Note\",\n  \"note\": \"Siapkan bekal\"\n}",
+      "form": []
+    },
+    "auth": {
+      "type": "bearer",
+      "bearer": "1|afYgieC7kLCCXFGmm1mSLkVeQf9UJF0npJnEhmC85bf65917"
+    },
+    "tests": []
+  },
+  {
+    "_id": "1efccb28-5b07-45b0-9298-714609ede6f2",
+    "colId": "a009911a-a5ee-4956-8686-aadc17e92f33",
+    "containerId": "",
+    "name": "get all notes",
+    "url": "http://laravel-absensi-backend.test/api/api-notes",
+    "method": "GET",
+    "sortNum": 50000,
+    "created": "2024-05-05T06:07:52.076Z",
+    "modified": "2024-05-05T06:08:49.585Z",
+    "headers": [
+      {
+        "name": "Accept",
+        "value": "application/json"
+      }
+    ],
+    "params": [],
+    "auth": {
+      "type": "bearer",
+      "bearer": "1|afYgieC7kLCCXFGmm1mSLkVeQf9UJF0npJnEhmC85bf65917"
+    },
+    "tests": []
   }
 ]

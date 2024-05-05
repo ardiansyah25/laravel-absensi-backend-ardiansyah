@@ -1,7 +1,7 @@
 <div class="main-sidebar sidebar-style-2">
     <aside id="sidebar-wrapper">
         <div class="sidebar-brand">
-            <a href="{{route('home') }}">Stisla</a>
+            <a href="{{route('home') }}">FaceAbsen</a>
         </div>
         <div class="sidebar-brand sidebar-brand-sm">
             <a href="{{route('home') }}">St</a>
@@ -29,12 +29,12 @@
                 </a>
             </li>
 
-            {{-- <li class="nav-item">
+            <li class="nav-item">
                 <a href="{{ route('permissions.index') }}" class="nav-link">
                     <i class="fas fa-columns"></i>
                     <span>Permission</span>
                 </a>
-            </li> --}}
+            </li>
 
     </aside>
 </div>
