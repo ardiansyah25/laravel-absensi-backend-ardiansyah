@@ -27,5 +27,5 @@ Route::post('/update-profile', [ App\Http\Controllers\Api\AuthController::class,
 //create permission
 Route::apiResource('/api-permissions', App\Http\Controllers\Api\PermissionController::class)->middleware('auth:sanctum');
 
-//notes
+//notes tambah
 Route::apiResource('/api-notes', App\Http\Controllers\Api\NoteController::class)->middleware('auth:sanctum');
