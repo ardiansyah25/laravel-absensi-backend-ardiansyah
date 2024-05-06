@@ -108,7 +108,7 @@
 
 @push('scripts')
     <!-- JS Libraies -->
-    <script src="{{asset('modules/datatables/dataTables.min.js') }}"></script>
+    <script src="{{asset('modules/datatables/datatables.min.js') }}"></script>
     <script src="{{ asset('modules/datatables/dataTables.bootstrap4.min.js') }}"></script>
     <script src="{{asset('modules/datatables/dataTables.select.min.js') }}"></script>
     {{-- <script src="{{ asset('library/datatables/media/js/jquery.dataTables.min.js') }}"></script> --}}
